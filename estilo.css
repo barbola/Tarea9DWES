@@ -1,0 +1,95 @@
+* { margin: auto; padding: 0; font-family: arial;  }
+
+/*body: cuerpo de la página*/
+body { 
+	background-color: #f4d4d3; 
+}
+
+/*cabecera*/
+header 
+{ 
+
+	background-image:url('imagenes/barLibro.jpg');
+	flex: 0 0 auto;
+}
+header h1 { text-align: center; color: white; padding: 0.5em; font-size: 4em; font: oblique cursive;}
+header h2 { text-align: center; color: white; padding: 0.5em; font-size: 2em; font: oblique cursive;}
+
+.main-content{
+   /* By setting flex-grow to 1, the main content will take up 
+   all of the remaining space on the page. 
+   The other elements have flex-grow: 0 and won't contest the free space. */
+   /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+   flex: 1 0 auto;
+}
+
+/*navegador*/
+nav { background-color: #005853; min-height: 2em; }
+nav p { display: inline; }
+nav a:link, nav a:visited { text-decoration: none; color: #f1f16c; background-color: #027244; margin: 0.3em; }
+nav a:hover, nav a:active { text-decoration: none; color: #9bf5ff; background-color: #543683; margin: 0.3em; }
+
+/*principal: section:*/
+section { width: 75%; background-color: #deeebc; float: left; height: 100%;}
+section h1 { text-align: center; padding: 0.5em; color: olive; font-size: 1.4em; }
+section h2 { text-align: center; padding: 0.5em; color: grey; font-size: 1.2em; }
+section h3 { text-align: left; padding: 0.3em 3em; color: #663366; font-size: 1em;  }
+
+/*artículos: article*/
+article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: white; border: 3px double #808000; }
+article p { text-align: justify; }
+
+/*acciones: aside*/
+aside { width: 25%; float: left; }
+#accion1 { margin: 20px; padding: 10px; border: 2px solid; border-color: #808000; background-color: white; }
+#accion1 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#accion1 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#accion1 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+/*acciones: aside*/
+aside { width: 25%; float: left; }
+#busqueda { margin: 20px; padding: 10px; border: 2px solid; border-color: #808000; background-color: white; }
+#busqueda h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#busqueda h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#busqueda p { font-size: 0.9em; padding: 0.2em 1em; }
+
+/*acciones: aside*/
+aside { width: 25%; float: left; border-color: #808000;}
+#accion2 { margin: 20px; padding: 10px; border: 2px solid blue; background-color: white; }
+#accion2 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#accion2 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#accion2 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+/*acciones: aside*/
+aside { width: 25%; float: left; border-color: #808000;}
+#accion3 { margin: 20px; padding: 10px; border: 2px solid blue; background-color: white; }
+#accion3 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#accion3 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#accion3 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+/*acciones: aside*/
+aside { width: 25%; float: left;border-color: #808000;}
+#accion4 { margin: 20px; padding: 10px; border: 2px solid blue; background-color: white; }
+#accion4 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#accion4 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#accion4 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+/*acciones: aside*/
+aside { width: 25%; float: left;border-color: #808000;}
+#accion5 { margin: 20px; padding: 10px; border: 2px solid blue; background-color: white; }
+#accion5 h1 { font-size: 1.1em; text-align: left; padding: 0.2em 0em; }
+#accion5 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; }
+#accion5 p { font-size: 0.9em; padding: 0.2em 1em; }
+
+
+/*pie de página: footer*/
+footer { 
+	clear: both; 
+	background-color: #808000; 
+	flex: 0 0 auto;
+	
+}
+footer h1 { text-align: center; font-size: 1.4em; color: white; padding: 0.7em; }
+footer h2 { text-align: center; font-size: 1em; padding: 0.4em; }
+footer a { text-decoration: none; color: green; }
+
